@@ -11,7 +11,7 @@
   "bugs": "https://github.com/syntaxhighlighter/theme-default/issues",
   "author": {
     "name": "Alex Gorbatchev",
-    "url": "https://github.com/syntaxhighlighter/theme-default"
+    "url": "https://github.com/alexgorbatchev"
   },
   "main": "./lib/theme-default.css",
   "repository": {
@@ -26,7 +26,7 @@
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.11",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-sass": "^0.8.1",
     "mocha": "^1.20.1",
     "node-sass": "^0.9.3",
