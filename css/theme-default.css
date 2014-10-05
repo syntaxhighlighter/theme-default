@@ -1,4 +1,13 @@
-.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea {
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
   -moz-border-radius: 0 0 0 0 !important;
   -webkit-border-radius: 0 0 0 0 !important;
   background: none !important;
@@ -44,7 +53,7 @@
     width: 100% !important; }
     .syntaxhighlighter table caption {
       text-align: left !important;
-      padding: 0.5em 0 0.5em 1em !important; }
+      padding: .5em 0 0.5em 1em !important; }
     .syntaxhighlighter table td.code {
       width: 100% !important; }
       .syntaxhighlighter table td.code .container {
@@ -104,13 +113,17 @@
       .syntaxhighlighter .toolbar a.expandSource {
         display: none !important; }
   .syntaxhighlighter.ie {
-    font-size: 0.9em !important;
+    font-size: .9em !important;
     padding: 1px 0 1px 0 !important; }
     .syntaxhighlighter.ie .toolbar {
       line-height: 8px !important; }
       .syntaxhighlighter.ie .toolbar a {
         padding-top: 0px !important; }
-  .syntaxhighlighter.printing .line.alt1 .content, .syntaxhighlighter.printing .line.alt2 .content, .syntaxhighlighter.printing .line.highlighted .number, .syntaxhighlighter.printing .line.highlighted.alt1 .content, .syntaxhighlighter.printing .line.highlighted.alt2 .content {
+  .syntaxhighlighter.printing .line.alt1 .content,
+  .syntaxhighlighter.printing .line.alt2 .content,
+  .syntaxhighlighter.printing .line.highlighted .number,
+  .syntaxhighlighter.printing .line.highlighted.alt1 .content,
+  .syntaxhighlighter.printing .line.highlighted.alt2 .content {
     background: none !important; }
   .syntaxhighlighter.printing .line .number {
     color: #bbbbbb !important; }
@@ -177,21 +190,21 @@
   .syntaxhighlighter.collapsed {
     overflow: visible !important; }
     .syntaxhighlighter.collapsed .toolbar {
-      color: #00f !important;
-      background: #fff !important;
+      color: blue !important;
+      background: white !important;
       border: 1px solid #6ce26c !important; }
       .syntaxhighlighter.collapsed .toolbar a {
-        color: #00f !important; }
+        color: blue !important; }
         .syntaxhighlighter.collapsed .toolbar a:hover {
-          color: #f00 !important; }
+          color: red !important; }
   .syntaxhighlighter .toolbar {
-    color: #fff !important;
+    color: white !important;
     background: #6ce26c !important;
     border: none !important; }
     .syntaxhighlighter .toolbar a {
-      color: #fff !important; }
+      color: white !important; }
       .syntaxhighlighter .toolbar a:hover {
-        color: #000 !important; }
+        color: black !important; }
   .syntaxhighlighter .plain, .syntaxhighlighter .plain a {
     color: black !important; }
   .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
@@ -202,13 +215,13 @@
     font-weight: bold !important;
     color: #006699 !important; }
   .syntaxhighlighter .preprocessor {
-    color: grey !important; }
+    color: gray !important; }
   .syntaxhighlighter .variable {
     color: #aa7700 !important; }
   .syntaxhighlighter .value {
     color: #009900 !important; }
   .syntaxhighlighter .functions {
-    color: #ff1493 !important; }
+    color: deeppink !important; }
   .syntaxhighlighter .constants {
     color: #0066cc !important; }
   .syntaxhighlighter .script {
@@ -216,8 +229,8 @@
     color: #006699 !important;
     background-color: none !important; }
   .syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
-    color: grey !important; }
+    color: gray !important; }
   .syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
-    color: #ff1493 !important; }
+    color: deeppink !important; }
   .syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
     color: red !important; }

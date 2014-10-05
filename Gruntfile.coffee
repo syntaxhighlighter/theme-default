@@ -1,11 +1,11 @@
 module.exports = (grunt) ->
-  grunt.loadNpmTasks 'grunt-sass'
+  grunt.loadNpmTasks 'grunt-contrib-sass'
 
   grunt.config.init
     sass:
       theme:
         options:
-          includePaths: ["#{__dirname}/node_modules/syntaxhighlighter-theme/scss"]
+          loadPath: ["#{__dirname}/node_modules/theme-base/scss"]
 
         files: [
           expand: true
