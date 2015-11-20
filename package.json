@@ -13,24 +13,20 @@
     "name": "Alex Gorbatchev",
     "url": "https://github.com/alexgorbatchev"
   },
-  "main": "./lib/theme-default.css",
+  "main": "theme.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/syntaxhighlighter/theme-default.git"
   },
   "scripts": {
-    "prepublish": "grunt build",
-    "test": "mocha test/**/*.coffee"
+    "test": "mocha --opts mocha.opts test.js"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "coffee-script": "^1.7.1",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-sass": "^0.8.1",
-    "mocha": "^1.20.1",
-    "node-sass": "^0.9.3",
+  "dependencies": {
     "theme-base": "syntaxhighlighter/theme-base"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "mocha": "^2.3.4"
   },
   "engines": {
     "node": ">=0.10.0",
