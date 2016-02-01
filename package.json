@@ -1,5 +1,5 @@
 {
-  "name": "theme-default",
+  "name": "@alexgorbatchev/theme-default",
   "version": "4.0.0",
   "description": "Default theme for SyntaxHighlighter.",
   "keywords": [
